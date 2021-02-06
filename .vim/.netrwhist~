@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/libin/imi_hub/package'
+let g:netrw_dirhist_2='/home/libin/imi_hub'
+let g:netrw_dirhist_3='/home/libin/imi_hub/package/imi_source/libhhapi/src'

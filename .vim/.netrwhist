@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/libin/imi_hub/package/imi_source/mb_ipc/src'
+let g:netrw_dirhist_2='/home/libin/imi_hub/package/imi_source/mb_ipc'
+let g:netrw_dirhist_3='/home/libin/imi_hub/package/imi_source'
+let g:netrw_dirhist_4='/home/libin/imi_hub/package/imi_source/imi_main'
+let g:netrw_dirhist_5='/home/libin/imi_hub/package/imi_source/imi_main/src'
+let g:netrw_dirhist_6='/home/libin/imi_hub/package/imi_source/imi_main/src/imi'
+let g:netrw_dirhist_7='/home/libin/imi_hub/package/imi_source/imi_main/src'
+let g:netrw_dirhist_8='/home/libin/imi_hub'
