@@ -1,12 +1,14 @@
-"" Install plug command list below:
-"call plug#begin('~/.vim/plugged')
+" Install plug command list below:
+call plug#begin('~/.vim/plugged')
 "Plug 'brookhong/cscope.vim'
 "Plug 'qrsforever/lookupfile'
 "Plug 'vim-scripts/taglist.vim'
 "Plug 'Valloric/YouCompleteMe'
 "Plug 'clones/vim-genutils'
 "Plug 'vim-scripts/winmanager'
-"call plug#end()
+Plug 'fholgado/minibufexpl.vim'
+Plug 'preservim/tagbar'
+call plug#end()
 
 """""""""""""""""""""""vim setting""""""""""""""""
 set nu
@@ -22,21 +24,19 @@ set backspace=indent,eol,start
 
 syntax on
 
-source ~/.vim/plugin/minibufexpl.vim
-
-"""""""""""""taglist setting"""""""""""""
-set tags=tags;/
-let Tlist_Show_One_File=1
-let Tlist_Exit_OnlyWindow=1
-"let Tlist_Show_Menu=1
-"let Tlist_Auto_Open=1
-
-""""""""""""winmanager setting"""""""""""
-let g:winManagerWindowLayout='TagList'
-"let g:winManagerWindowLayout='FileExplorer|TagList'
-"let g:winManagerWindowLayout="TagList|FileExplorer"
-let g:winManagerWidth=30
-nmap <silent> <F8> :WMToggle<cr>
+""""""""""""""taglist setting"""""""""""""
+"set tags=tags;/
+"let Tlist_Show_One_File=1
+"let Tlist_Exit_OnlyWindow=1
+""let Tlist_Show_Menu=1
+""let Tlist_Auto_Open=1
+"
+"""""""""""""winmanager setting"""""""""""
+"let g:winManagerWindowLayout='TagList'
+""let g:winManagerWindowLayout='FileExplorer|TagList'
+""let g:winManagerWindowLayout="TagList|FileExplorer"
+"let g:winManagerWidth=30
+nmap <silent> <F8> :TagbarToggle<cr>
 
 """""""""""""""""""""""cscope set""""""""""""""""""      
 if filereadable("cscope/load.vim")
