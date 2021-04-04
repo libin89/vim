@@ -22,6 +22,11 @@ set expandtab
 set nocompatible
 set backspace=indent,eol,start
 
+""display special character
+"set invlist
+""display special character
+"set nolist
+
 syntax on
 
 """"""""""""""taglist setting"""""""""""""
